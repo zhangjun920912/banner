@@ -9,8 +9,8 @@ import android.widget.Spinner;
 import com.test.banner.App;
 import com.test.banner.R;
 import com.test.banner.loader.GlideImageLoader;
-import com.youth.banner.Banner;
-import com.youth.banner.BannerConfig;
+import com.youth.iherbbanner.Banner;
+import com.youth.iherbbanner.BannerConfig;
 
 public class BannerStyleActivity extends AppCompatActivity implements  AdapterView.OnItemSelectedListener {
     Banner banner;

@@ -20,8 +20,8 @@ import com.test.banner.demo.CustomBannerActivity;
 import com.test.banner.demo.CustomViewPagerActivity;
 import com.test.banner.demo.IndicatorPositionActivity;
 import com.test.banner.loader.GlideImageLoader;
-import com.youth.banner.Banner;
-import com.youth.banner.listener.OnBannerListener;
+import com.youth.iherbbanner.Banner;
+import com.youth.iherbbanner.listener.OnBannerListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
