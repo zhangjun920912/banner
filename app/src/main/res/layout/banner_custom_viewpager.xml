@@ -7,7 +7,7 @@
 
 
     <com.test.banner.ui.CustomViewPager
-        android:id="@id/bannerViewPager"
+        android:id="@id/bannerViewPagers"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipChildren="false" />
