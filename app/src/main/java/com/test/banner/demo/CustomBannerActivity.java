@@ -6,8 +6,8 @@ import android.os.Bundle;
 import com.test.banner.App;
 import com.test.banner.R;
 import com.test.banner.loader.GlideImageLoader;
-import com.youth.banner.Banner;
-import com.youth.banner.BannerConfig;
+import com.youth.iherbbanner.Banner;
+import com.youth.iherbbanner.BannerConfig;
 
 public class CustomBannerActivity extends AppCompatActivity {
     Banner banner1,banner2,banner3;

@@ -4,9 +4,7 @@ import android.content.Context;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.test.banner.ui.GlideRoundTransform;
-import com.test.banner.ui.RoundAngleImageView;
-import com.youth.banner.loader.ImageLoader;
+import com.youth.iherbbanner.loader.ImageLoader;
 
 
 public class GlideImageLoader extends ImageLoader {

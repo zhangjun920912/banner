@@ -8,8 +8,8 @@ import android.widget.RelativeLayout;
 import com.test.banner.App;
 import com.test.banner.R;
 import com.test.banner.loader.GlideImageLoader;
-import com.youth.banner.Banner;
-import com.youth.banner.listener.OnBannerListener;
+import com.youth.iherbbanner.Banner;
+import com.youth.iherbbanner.listener.OnBannerListener;
 
 
 public class CustomViewPagerActivity extends AppCompatActivity implements OnBannerListener {
