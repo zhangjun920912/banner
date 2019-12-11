@@ -110,7 +110,7 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
         bannerTitle = (TextView) view.findViewById(R.id.bannerTitle);
         numIndicator = (TextView) view.findViewById(R.id.numIndicator);
         numIndicatorInside = (TextView) view.findViewById(R.id.numIndicatorInside);
-        bannerDefaultImage.setImageResource(bannerBackgroundImage);
+//        bannerDefaultImage.setImageResource(bannerBackgroundImage);
         initViewPagerScroll();
     }
 
@@ -336,12 +336,12 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
     }
 
     private void setImageList(List<?> imagesUrl) {
-        if (imagesUrl == null || imagesUrl.size() <= 0) {
-            bannerDefaultImage.setVisibility(VISIBLE);
-            Log.e(tag, "The image data set is empty.");
-            return;
-        }
-        bannerDefaultImage.setVisibility(GONE);
+//        if (imagesUrl == null || imagesUrl.size() <= 0) {
+//            bannerDefaultImage.setVisibility(VISIBLE);
+//            Log.e(tag, "The image data set is empty.");
+//            return;
+//        }
+//        bannerDefaultImage.setVisibility(GONE);
         initImages();
         for (int i = 0; i <= count + 1; i++) {
             View imageView = null;
