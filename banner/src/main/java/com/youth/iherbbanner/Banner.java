@@ -103,7 +103,7 @@ public class Banner extends FrameLayout implements OnPageChangeListener {
         handleTypedArray(context, attrs);
         View view = LayoutInflater.from(context).inflate(mLayoutResId, this, true);
         bannerDefaultImage = (ImageView) view.findViewById(R.id.bannerDefaultImage);
-        viewPager = (BannerViewPager) view.findViewById(R.id.bannerViewPager);
+        viewPager = (BannerViewPager) view.findViewById(R.id.bannerViewPagers);
         titleView = (LinearLayout) view.findViewById(R.id.titleView);
         indicator = (LinearLayout) view.findViewById(R.id.circleIndicator);
         indicatorInside = (LinearLayout) view.findViewById(R.id.indicatorInside);
